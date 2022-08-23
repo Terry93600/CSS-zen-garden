@@ -141,3 +141,25 @@ hr {
   width: 100%;
   font-size: 17px;
 }
+
+#transparant {
+  top: 300vh;
+  left: -40px;
+  position: absolute;
+  width: 60%;
+  min-height: 50vh;
+  background: rgba(243, 238, 238, 0);
+  font-size: 100px;
+  padding: 5%;
+}
+
+#transparant > h2 {
+  font-size: 20px;
+  color: black;
+}
+
+#transparant > p {
+  color: black;
+  width: 100%;
+  font-size: 17px;
+}
