@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: aqua;
+  width: 90%;
+  min-height: 1000vh;
+  margin: 5%;
+  padding: 5% 0 0 5%;
+  position: relative;
+}
+
+body {
+  background: azure;
+}
+
+h1 {
+  display: block;
+  background: crimson;
+  color: white;
+  text-align: center;
+  width: 300px;
+  padding: 1Opx 0;
+}
+
+#jaune {
+  position: absolute;
+  right: 0;
+  top: 4%;
+  background: rgba(255, 255, 0, 0.671);
+  width: 40%;
+  min-height: 100vh;
+  padding: 5% 5% 5% 4.5%;
+}
+
+#degun {
+  background: rgb(0, 0, 0, 0.6);
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 37%;
+}
+
+article > h3 {
+  margin: 2% 0;
+  font-size: 40px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+article > ul > li {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  font-size: 150px;
+  width: 50%;
+  font-family: sans-serif;
+  margin-top: 5%;
+}
+
+h2 > span {
+  border-bottom: 14px dotted white;
+}
+
+p {
+  width: 50%;
+  font-size: 20px;
+  margin: 5% 0;
+  color: white;
+}
+
+hr {
+  width: 50%;
+  border: 1px solid crimson;
+}
+
+/* #jaune {
+  position: absolute;
+  right: 0;
+  top: 4%;
+  background: rgba(255, 255, 0, 0.671);
+  width: 40%;
+  min-height: 100vh;
+  padding: 5% 5% 5% 4.5%;
+} */
+
+#blanc {
+  top: 210vh;
+  left: -40px;
+  position: absolute;
+  width: 60%;
+  min-height: 50vh;
+  background: white;
+  font-size: 100px;
+  padding: 5%;
+}
+
+#blanc > h2 {
+  width: 100%;
+  font-size: 30px;
+  color: black;
+}
+
+#blanc > p {
+  width: 100%;
+  color: black;
+  font-size: 15px;
+}
+
+#rouge {
+  background: red;
+  min-height: 50vh;
+  width: 60%;
+  position: absolute;
+  right: 0;
+  top: 290vh;
+  width: 40%;
+  min-height: 100vh;
+  padding: 5% 5% 5% 4.5%;
+}
+
+#rouge > h2 {
+  font-size: 30px;
+}
+
+#rouge > p {
+  width: 100%;
+  font-size: 17px;
+}

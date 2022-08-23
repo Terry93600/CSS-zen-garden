@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photo {
+    width: 50%;
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .photo {
+    background: url(../img/p1.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .photo {
+    background: url(../img/p2.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 1023px) {
+  .photo {
+    background: url(../img/p3.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .photo {
+    background: url(../img/p1.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
+}
